@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    
+    int tt;
+    cin>>tt;
+    
+    while(tt--)
+    {
+        string str;
+        cin>>str;
+        int size=str.size();
+        int val=str[size-1]-'0';
+        
+        if(val%2==0)
+        {
+            cout<<"even"<<"\n";
+        }
+        else
+        {
+            cout<<"odd"<<"\n";
+        }
+    }
+}
