@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+    int tt;
+    cin>>tt;
+
+    while(tt--)
+    {
+        string str;
+        int sum=0;
+        cin>>str;
+        int size=str.size();
+        int val1=str[size-1]-'0';
+        int val2=str[0]-'0';
+
+        sum=val1+val2;
+
+        cout<<"Sum = "<<sum<<endl;
+
+
+
+
+    }
+    
+    return 0;
+}
