@@ -1,0 +1,30 @@
+// Add some code
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int tt,cnt=1;
+    cin>>tt;
+
+    while(tt--)
+    {
+       int val;
+       cin>>val;
+
+       int res1=sqrt(val);
+
+       if(res1*res1==val)
+       {
+           cout<<"YES\n";
+       }
+       else
+       {
+           cout<<"NO\n";
+       }
+
+
+
+    }
+
+    return 0;
+}
